@@ -1,0 +1,15 @@
+select y.ename,count(*) as cnt
+from empl as x join empl as y
+on x.mgr=y.empno 
+group by y.ename
+
+
+
+
+
+
+
+
+
+
+
